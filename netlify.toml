@@ -1,0 +1,7 @@
+[build]
+  command   = "npm install @babel/core @babel/preset-react @babel/preset-env && node build.js"
+  publish   = "dist"
+  functions = "netlify/functions"
+
+[build.environment]
+  NODE_VERSION = "18"
